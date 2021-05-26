@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "33866a2c7e6c6b637d1ce11238bfef9a73517e2f65d9aea363ba7c252603224a"
+            "sha256": "813d2a204c0bd2b8cfe0f8ccde92a9f42bc49fbd68a7b1f78c0325ba216d652c"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -114,6 +114,14 @@
             "index": "pypi",
             "version": "==0.1.9"
         },
+        "flask-marshmallow": {
+            "hashes": [
+                "sha256:4f507f883838b397638a3a36c7d36ee146b255a49db952f5d9de3f6f4522e8a8",
+                "sha256:69e99e3a123393894884a032ae2d11e6bdf4519a505819b66cec7eda32057741"
+            ],
+            "index": "pypi",
+            "version": "==0.10.1"
+        },
         "flask-sqlalchemy": {
             "hashes": [
                 "sha256:0078d8663330dc05a74bc72b3b6ddc441b9a744e2f56fe60af1a5bfc81334327",
@@ -177,6 +185,21 @@
             ],
             "version": "==1.1.1"
         },
+        "marshmallow": {
+            "hashes": [
+                "sha256:1a358beb89c2b4d5555272065a9533591a3eb02f1b854f3c4002d88d8f2a1ddb",
+                "sha256:eb97c42c5928b5720812c9268865fe863d4807bc1a8b48ddd7d5c9e1779a6af0"
+            ],
+            "version": "==3.2.2"
+        },
+        "marshmallow-sqlalchemy": {
+            "hashes": [
+                "sha256:0878a01587a09dfa3088ac812522784944bdcfcab9a33fa4cc80ab0ab8ad7691",
+                "sha256:50b4cce1387adf968928cf8b690664655d5caecb23acf2ec676cde91e93c514b"
+            ],
+            "index": "pypi",
+            "version": "==0.20.0"
+        },
         "psycopg2-binary": {
             "hashes": [
                 "sha256:040234f8a4a8dfd692662a8308d78f63f31a97e1c42d2480e5e6810c48966a29",
@@ -217,7 +240,6 @@
         },
         "pycparser": {
             "hashes": [
-                "sha256:0f5e5a5a511fa6925e8f48dacaaccb39fbf0beb14dfce008c1e233acd0b3ee97",
                 "sha256:a988718abfad80b6b157acce7bf130a30876d27603738ac39f140993246b25b3"
             ],
             "version": "==2.19"
